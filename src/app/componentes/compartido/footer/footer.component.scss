@@ -1,0 +1,65 @@
+/* ======MAPA====== */
+footer{
+    background: #1b2a4b;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#redes i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+
+
+/*---------------------------------------
+  FOOTER
+-----------------------------------------*/
+.site-footer {
+    background: linear-gradient(to bottom,black,rgba(0,0,0,0.7) );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+  }
+
+  .social-icon li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    transition: all 0.3s;
+  }
+
+  .social-icon-link {
+    color: yellow;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 15px;
+  }
+
+  .copyright-text {
+    font-size: 18px;
+  }
+
+  .tel-link {
+    color: #717275;
+  }
+
+  .site-footer a:hover {
+    color: white;
+  }
+
+  .site-footer a {
+        color: #AAA;;
+  }
+
+  .site-footer p {
+      color: #AAA;
+  }

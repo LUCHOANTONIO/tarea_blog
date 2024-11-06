@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteBase /
+
+# Rewrites all URLS without blog in them
+RewriteCond %{REQUEST_URI} !^/dist/hparaiso/
+
+# Rewrites all URLS [Replace "example" with the actual domain, without the TLD (.com, .net, .biz, etc)]
+RewriteCond %{HTTP_HOST} ^(www\.)?hotelparaisolago\.
+
+# Rewrite all those to insert /folder
+RewriteRule ^(.*)$ /dist/hparaiso/$1 [L]

@@ -1,0 +1,16 @@
+#menu li>a {
+    font-size: 18px;
+    font-weight: normal;
+    //color: #3f3f3f;
+     color: white;
+}
+
+#menu li>a:hover,#menu li>a:focus {
+    color: lightskyblue;
+}
+
+#menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+

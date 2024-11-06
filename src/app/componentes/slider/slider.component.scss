@@ -1,0 +1,72 @@
+// POSICIONANDO SLIDER
+.presentation{
+   position: relative;
+   padding: 0;
+   margin: 0;
+   height: calc(100vw*0.41);
+   border: 2px solid gold;
+   box-shadow: 5px 5px 5px gold;
+}
+
+
+// CARRUSEL DE IMAGENES en slider
+#carouselExampleIndicators{
+   position: absolute;
+   left: 25%;
+   top:25%;
+   max-width: 50%;
+   max-height: 500rem;
+   // top:calc(100vw * 0.01 );
+}
+
+.carousel-inner{
+   border-radius: 5%;
+   opacity: 0.8;
+}
+.carousel-item img{
+   opacity: 0.0;
+}
+
+.carousel-item img {
+    height: 10% ;
+    object-fit: cover;
+    filter: brightness(0.8);
+    border-radius: 5%;
+    border: 2px solid orange;
+}
+
+
+
+// Video en slider
+.video-container{
+   position: absolute;
+   left: 0;
+   top:0;
+   z-index: -50;
+   width: 100%;  
+   height: 100%;
+}
+
+
+
+#dinamic-text{
+   position: absolute;
+   left: 25%;
+   top: calc(100vw*0.41);
+}
+
+@media (max-width:567px){
+   #dinamic-text{
+      left: 2%;
+   }
+}
+
+// @media (max-width:768px){
+//    #carouselExampleIndicators{
+//       position: absolute;
+//       left: 0;
+//       top:0;
+//       max-width: 100%;
+//       max-height: 100%;
+//    }
+// }

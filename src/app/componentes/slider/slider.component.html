@@ -1,0 +1,82 @@
+<section class="presentation d-flex">
+  <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div id="carousel-item1" class="carousel-item active" data-bs-interval="1500">
+        <img  src="../../../assets/img/slider/carrusel de paisajes/cp1.jpg" class="d-block w-100" alt="imagen1">
+        <div class="carousel-caption top-0 mt-2" >
+          <p class="mt-5 fs-3 text-uppercase">
+             
+          </p>
+          
+         </div>
+      </div>
+
+      <div class="carousel-item " data-bs-interval="2500">
+        <img src="../../../assets/img/slider/carrusel de paisajes/cp2.jpg" class="d-block w-100" alt="imagen2">
+        <div class="carousel-caption top-0 mt-4" >
+          <p class="fs-6 text-uppercase">
+            - - - - -
+          </p>
+          <h1 class="fw-bolder text-capitalize">BIENVENIDO A HOTEL PARAISO DEL LAGO</h1>
+        
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3500">
+        <img src="../../../assets/img/slider/carrusel de paisajes/cp3.jpg" class="d-block w-100" alt="imagen3">
+        <div class="carousel-caption top-0 mt-4" >
+          <p class="fs-3 text-uppercase">
+            A las orillas del Lago
+          </p>
+          <h1 class="fw-bolder text-capitalize">EL DESCANSO QUE NECESITAS</h1>
+        
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3500">
+        <img src="../../../assets/img/slider/carrusel de hotel/ch2.jpg" class="d-block w-100" alt="imagen4">
+        <div class="carousel-caption top-0 mt-4" >
+          <p class="fs-3 text-uppercase">
+            Ven en familia!
+          </p>
+          <h1 class="fw-bolder text-capitalize">CONTAMOS CON PARQUEO</h1>
+        
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../../../assets/img/slider/carrusel de hotel/ch2.jpg" class="d-block w-100" alt="imagen4">
+        <div class="carousel-caption top-0 mt-4" >
+          <p class="fs-3 text-uppercase">
+            ASEGURA TU ESTADIA!
+          </p>
+          <h1 class="fw-bolder text-capitalize">RESERVA AHORA!</h1>
+        
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+  </div> -->
+  <ngx-typed-js 
+      [strings]="['Un lugar para reponer energias','Para seguir con la aventura','en el lago más alto del mundo.','Hotel Paraiso del Lago','Ven con tu familia','Contamos con garaje','Te esperamos!']"
+      [loop]='true' [shuffle]='false' [typeSpeed]='40' [showCursor]='false' cursorChar='true'>
+      <p id="dinamic-text" class="pt-2 fs-4"> <span class="typing text-light fst-italic"></span></p>
+      </ngx-typed-js>
+  <div class="video-container slide text-center">
+    <!-- <video [muted]="'muted'" loop autoplay [src]="'../../../assets/video/presentacion.mp4'"></video> -->
+    <video  [muted]="'muted'" autoplay playsinline loop  class="w-100" poster="">
+        <source src="../../../assets/video/presentacion.mp4" type="video/mp4">
+        Su navegador no soporta el tag de video.
+    </video>
+    
+  </div>
+</section>

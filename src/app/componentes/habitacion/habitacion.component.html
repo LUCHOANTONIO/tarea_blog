@@ -1,0 +1,37 @@
+<!-- HABITACIONES-->
+<section id="section-rooms" class="container-fluid d-flex justify-content-center">
+    <div class="row text-center" >
+        <h1 class="">HABITACIONES</h1>
+        <div class="col-lg-6 col-md-6 col-sm-12 my-2  text-center" *ngFor="let hab of lstHabitaciones,let i=index">
+            <div id="hab{{hab.nro_habitacion}}" class="card text-center" >
+                <div class="card-body">
+                <h4 class="card-title">{{hab.tipo_habitacion}}</h4>
+                <h3>{{hab.precio+" "+hab.moneda}}</h3>
+                <img src="../../../assets/img/habitaciones/{{hab.url_imagen}}" class="card-img-top " alt="imagen" >
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item card-text">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>Características</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <span>{{hab.caracteristica1}}</span><br>
+                            <span>{{hab.caracteristica2}}</span><br>
+                            <span>{{hab.caracteristica3}}</span><br>
+                            <span>{{hab.caracteristica4}}</span><br>
+                            <span>{{hab.caracteristica5}}</span><br>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/+59176552354/?text=" target="_blank" class="mt-2 btn btn-info">Reservar <span class="bi-whatsapp btn-sm"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

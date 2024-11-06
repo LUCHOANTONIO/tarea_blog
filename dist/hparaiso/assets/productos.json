@@ -1,0 +1,80 @@
+[
+    {
+        "nro_habitacion": "1",
+        "tipo_habitacion": "SIMPLE",
+        "descripcion": "habitación para una sola persona",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "simple.jpg"
+    },
+    {
+        "nro_habitacion": "2",
+        "tipo_habitacion": "DOBLE",
+        "descripcion": "habitación para dos personas",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "doble.jpg"
+    },
+    {
+        "nro_habitacion": "3",
+        "tipo_habitacion": "TRIPLE",
+        "descripcion": "habitación para tres personas",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "triple.jpg"
+    },
+    {
+        "nro_habitacion": "4",
+        "tipo_habitacion": "MATRIMONIAL",
+        "descripcion": "habitación para dos personas",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "matrimonial.jpg"
+    },
+    {
+        "nro_habitacion": "5",
+        "tipo_habitacion": "MATRIMONIAL + SIMPLE",
+        "descripcion": "habitación para tres personas",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "matrisimple.jpg"
+    },
+    {
+        "nro_habitacion": "6",
+        "tipo_habitacion": "MATRIMONIAL + 2 SIMPLE",
+        "descripcion": "habitación para cuatro personas",
+        "caracteristica1": "Baño Privado",
+        "caracteristica2": "WIFI (Fibra Optica)",
+        "caracteristica3": "TV Cable",
+        "caracteristica4": "Garaje",
+        "caracteristica5": "Desayuno Buffet Americano",
+        "precio": "",
+        "moneda": "",
+        "url_imagen": "matri2simple.jpg"
+    }
+]

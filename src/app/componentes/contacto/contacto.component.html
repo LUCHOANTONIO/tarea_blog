@@ -1,0 +1,74 @@
+<!-- ACERCA DE NOSOTROS-->
+<section id="section-contact" class="">
+    <div>
+        <div id="acercade" class="w-100 m-auto text-center">
+            <h1 class="mb-2 fs-2"> <span class="text-info"> Contactanos, atendemos las 24 Horas</span></h1>
+            <p class="fs-4 text-light">Tu consulta es valiosa para nostros, no dudes en escribir o llamar a nuestro números, con
+                gusto te atenderemos.</p>
+        </div>
+        <div class="mt-2 text-center m-3">
+            <a href="https://wa.me/+59176552354/?text=" target="_blank" class="btn btn-sm btn-success"> CONTACTANOS
+                <span class="bi-whatsapp btn-sm"></span></a>
+        </div>
+    </div>
+    <div id="contacto" class="content  text-light">
+        <div class="row">
+            <div class="col-md-7">
+                <form action="">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                        <input type="text" [(ngModel)]="nombre" name="nombre" class="form-control" id="formGroupExampleInput" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Correo</label>
+                        <input type="text" [(ngModel)]="correo" name="correo" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su correo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput2" class="form-label">Telefono</label>
+                        <input type="text" [(ngModel)]="telefono" name="telefono" class="form-control" id="formGroupExampleInput2" placeholder="Ingrese su número">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje </label>
+                        <textarea [(ngModel)]="mensaje" name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <!-- <button class="btn btn-primary">Enviar</button> -->
+
+                </form>
+                <button (click)="enviarMensaje()" class="btn btn-outline-info"> Enviar<span class="bi-whatsapp btn-sm px-2"></span></button>
+            </div>
+            <div class="col-md-5 text-info">
+                <h4>Datos de empresa</h4>
+                <hr>
+                <div class="mt-4 ">
+                    <div class="d-flex">
+                        <i class="bi bi-geo-alt-fill px-2"></i>
+                        <p>Av. Lenguajes de programacion <br>
+                            Nro. 1010 Zona Universidad
+                            La Paz Bolivia
+                        </p>
+
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <i class="bi bi-telephone-fill px-2"></i>
+                        <p> Tel. Linea Fija: <span class="fw-bold">7777777</span><br>
+                            Celular: <span class="fw-bold">(591) 77777777</span>
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <i class="bi bi-envelope-fill px-2"></i>
+                        <p>Email:- micorreo.com</p>
+                    </div>
+                    <hr>
+                    <div class="d-flex">
+                        <i class="bi bi-browser-chrome px-2"></i>
+                        <p>Sitio Web: https://www.prueba.com</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

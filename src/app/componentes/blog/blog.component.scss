@@ -1,0 +1,38 @@
+
+.carousel-inner{
+    padding: 1em;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: aqua;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+
+.carousel-control-prev span,
+.carousel-control-next span{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+ 
+@media screen and (min-width:568px) {
+    .cards-wrapper{
+        display: flex;
+    }
+    .card{
+        margin: 0.5rem;
+        width: calc(100%/3);
+    }
+}
+
+@media screen and (max-width:567px) {
+    .card:not(:first-child){
+        display: none;
+    }
+}

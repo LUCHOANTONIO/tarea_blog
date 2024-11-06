@@ -1,0 +1,30 @@
+<div class="card">
+  <img src="../../../assets/img/{{  art?.url_imagen }}" class="card-img-top" alt="imagen">
+  <div class="card-body">
+    <h5 class="card-title text-info">{{art?.titulo}}</h5>
+    <p class="card-text text-light " [innerHTML]="art?.resumen"></p>
+    <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" [attr.data-bs-target]="'#modal'+prefijo_modal+'-'+art?.id">
+      Leer más
+    </button>
+  </div>
+</div>
+
+<!-- modal -->
+<div class="modal fade" id="modal{{prefijo_modal+'-'+art?.id}}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="modal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-4" id="modal1Label">{{art?.titulo}}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="../../../assets/img/{{  art?.url_imagen }}" class="card-img-top" alt="imagen">
+        <p class="" [innerHTML]="art?.contenido"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-info" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>

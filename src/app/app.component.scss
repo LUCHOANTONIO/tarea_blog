@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*|*{
+    font-family: 'Gideon Roman', sans-serif, Verdana;
+    overflow-x: hidden;
+    letter-spacing: 0.05rem;
+ }
+
+
+.cuerpo{
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+/* ======MEDIA QUERIES PANTALLA PEQUEÑA====== */
+@media (max-width:576px) {
+    .cuerpo{
+        width: 100%;
+
+    }
+}

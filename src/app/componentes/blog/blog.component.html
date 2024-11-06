@@ -1,0 +1,171 @@
+<section id="section-blog" class="container-fluid">
+  <h1 class="text-center text-light mt-5"> NUESTRO BLOG</h1>
+  <!--<div class="container">-->
+
+  <div id="carouselExampleRide" class="carousel carousel-dark slide d-none d-sm-block" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[0]"></app-articulo>
+          <app-articulo [art]="lstArticulos[1]"></app-articulo>
+          <app-articulo [art]="lstArticulos[2]"></app-articulo>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[3]"></app-articulo>
+          <app-articulo [art]="lstArticulos[4]"></app-articulo>
+          <app-articulo [art]="lstArticulos[5]"></app-articulo>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[6]"></app-articulo>
+          <app-articulo [art]="lstArticulos[7]"></app-articulo>
+          <app-articulo [art]="lstArticulos[8]"></app-articulo>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[9]"></app-articulo>
+          <app-articulo [art]="lstArticulos[10]"></app-articulo>
+          <app-articulo [art]="lstArticulos[11]"></app-articulo>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[12]"></app-articulo>
+          <app-articulo [art]="lstArticulos[13]"></app-articulo>
+          <app-articulo [art]="lstArticulos[14]"></app-articulo>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="cards-wrapper">
+          <app-articulo [art]="lstArticulos[15]"></app-articulo>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="carouselExampleRideSmall" class="carousel carousel-dark slide d-sm-none" data-bs-ride="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <app-articulo [art]="lstArticulos[0]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[1]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[2]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[3]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[4]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[5]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[6]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[7]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[8]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[9]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[10]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[11]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[12]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[13]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[14]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+
+      <div class="carousel-item">
+        <app-articulo [art]="lstArticulos[15]" [prefijo_modal]="'2'"></app-articulo>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRideSmall" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRideSmall" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- <div class="row w-90 text-center">
+    <div class="col-lg-4 col-md-4 col-sm-12 my-1 py-1 icono-wrap text-center" *ngFor="let art of lstArticulos,let i=index">
+      <div class="card text-center">
+        <img src="../../../assets/img/{{  art.url_imagen }}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text flex-grow-1" [innerHTML]="art.resumen"></p>
+          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
+            [attr.data-bs-target]="'#modal'+i">
+            Leer más
+          </button>
+        </div>
+
+        
+        <div class="modal fade" id="modal{{i}}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+          aria-labelledby="modal1Label" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modal1Label">{{art.titulo}}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p [innerHTML]="art.contenido"></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!--</div>-->
+</section>
